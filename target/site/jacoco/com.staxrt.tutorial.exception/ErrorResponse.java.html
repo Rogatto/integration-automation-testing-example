@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ErrorResponse.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">integration-automation-testing-example</a> &gt; <a href="index.source.html" class="el_package">com.staxrt.tutorial.exception</a> &gt; <span class="el_source">ErrorResponse.java</span></div><h1>ErrorResponse.java</h1><pre class="source lang-java linenums">package com.staxrt.tutorial.exception;
+
+import java.util.Date;
+
+public class ErrorResponse {
+
+  private Date timestamp;
+  private String status;
+  private String message;
+  private String details;
+
+  /**
+   * Instantiates a new Error response.
+   *
+   * @param timestamp the timestamp
+   * @param status the status
+   * @param message the message
+   * @param details the details
+   */
+<span class="fc" id="L20">  public ErrorResponse(Date timestamp, String status, String message, String details) {</span>
+<span class="fc" id="L21">    this.timestamp = timestamp;</span>
+<span class="fc" id="L22">    this.status = status;</span>
+<span class="fc" id="L23">    this.message = message;</span>
+<span class="fc" id="L24">    this.details = details;</span>
+<span class="fc" id="L25">  }</span>
+
+  /**
+   * Gets timestamp.
+   *
+   * @return the timestamp
+   */
+  public Date getTimestamp() {
+<span class="fc" id="L33">    return timestamp;</span>
+  }
+
+  /**
+   * Sets timestamp.
+   *
+   * @param timestamp the timestamp
+   */
+  public void setTimestamp(Date timestamp) {
+<span class="nc" id="L42">    this.timestamp = timestamp;</span>
+<span class="nc" id="L43">  }</span>
+
+  /**
+   * Gets status.
+   *
+   * @return the status
+   */
+  public String getStatus() {
+<span class="fc" id="L51">    return status;</span>
+  }
+
+  /**
+   * Sets status.
+   *
+   * @param status the status
+   */
+  public void setStatus(String status) {
+<span class="nc" id="L60">    this.status = status;</span>
+<span class="nc" id="L61">  }</span>
+
+  /**
+   * Gets message.
+   *
+   * @return the message
+   */
+  public String getMessage() {
+<span class="fc" id="L69">    return message;</span>
+  }
+
+  /**
+   * Sets message.
+   *
+   * @param message the message
+   */
+  public void setMessage(String message) {
+<span class="nc" id="L78">    this.message = message;</span>
+<span class="nc" id="L79">  }</span>
+
+  /**
+   * Gets details.
+   *
+   * @return the details
+   */
+  public String getDetails() {
+<span class="fc" id="L87">    return details;</span>
+  }
+
+  /**
+   * Sets details.
+   *
+   * @param details the details
+   */
+  public void setDetails(String details) {
+<span class="nc" id="L96">    this.details = details;</span>
+<span class="nc" id="L97">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
