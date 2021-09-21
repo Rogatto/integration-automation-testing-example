@@ -55,5 +55,7 @@ mvn clean install
 ```bash
 allure serve target/allure-results
 ```
+<br/>
+<img width="1768" alt="allure-example" src="https://user-images.githubusercontent.com/15186296/134237131-39d2b1e4-bfa8-4c4a-babd-ac4f07e68a94.png">
 
 **5. Postman collection -> API-USER.postman_collection.json**
