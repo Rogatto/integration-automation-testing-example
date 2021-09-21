@@ -1,8 +1,0 @@
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/Application.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/exception/ErrorInfo.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/exception/ErrorResponse.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/exception/ResourceNotFoundException.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/exception/GlobalExceptionHandler.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/controller/UserController.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/model/User.java
-/Users/guilhermerogatto/Documents/git/study/integration-automation-testing-example/src/main/java/com/staxrt/tutorial/repository/UserRepository.java

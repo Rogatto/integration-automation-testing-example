@@ -1,8 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-integration-automation-testing-example,com.staxrt.tutorial.controller,UserController,31,97,0,0,3,23,2,7,2,7
-integration-automation-testing-example,com.staxrt.tutorial,Application,5,3,0,0,2,1,1,1,1,1
-integration-automation-testing-example,com.staxrt.tutorial.exception,ResourceNotFoundException,0,4,0,0,0,2,0,1,0,1
-integration-automation-testing-example,com.staxrt.tutorial.exception,GlobalExceptionHandler,20,23,0,0,3,4,1,2,1,2
-integration-automation-testing-example,com.staxrt.tutorial.exception,ErrorInfo,26,0,0,0,6,0,3,0,3,0
-integration-automation-testing-example,com.staxrt.tutorial.exception,ErrorResponse,16,27,0,0,8,10,4,5,4,5
-integration-automation-testing-example,com.staxrt.tutorial.model,User,0,116,0,0,0,26,0,18,0,18

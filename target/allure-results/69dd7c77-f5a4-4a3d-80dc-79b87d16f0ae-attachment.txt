@@ -1,1 +1,0 @@
-User{id=5, firstName='Janice', lastName='Moore', email='bernie.hickle@testeeeeeee.com', createdAt=Tue Sep 21 16:27:55 BRT 2021, createdBy='Janice', updatedAt=Tue Sep 21 16:27:55 BRT 2021, updatedby='Janice'}

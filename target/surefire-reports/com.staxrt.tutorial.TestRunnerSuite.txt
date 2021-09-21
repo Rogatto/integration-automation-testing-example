@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.staxrt.tutorial.TestRunnerSuite
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.667 s - in com.staxrt.tutorial.TestRunnerSuite
