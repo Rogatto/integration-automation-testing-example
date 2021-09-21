@@ -51,4 +51,9 @@ docker-compose.yml up -d
 mvn clean install
 ```
 
-**4. Postman collection -> API-USER.postman_collection.json**
+**4. After execute  the step 3 we can easily see the Allure report (to use Allure report is necessary to downloat it (Allure command line))**
+```bash
+allure serve target/allure-results
+```
+
+**5. Postman collection -> API-USER.postman_collection.json**
