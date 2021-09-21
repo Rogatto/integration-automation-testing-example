@@ -1,4 +1,5 @@
 # Sample REST CRUD API with Spring Boot, Mysql, JPA and Hibernate 
+# Using TestContainer to assure our Integration/API testing
 
 ## Steps to Setup
 
