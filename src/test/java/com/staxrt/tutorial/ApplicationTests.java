@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ContextConfiguration(initializers = {TestRunnerSuite.Initializer.class})
-@Epic("API xyz")
+@Epic("API User")
 @Feature("Users")
 public class ApplicationTests {
 
