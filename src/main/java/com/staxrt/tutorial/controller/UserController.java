@@ -5,6 +5,7 @@ import com.staxrt.tutorial.exception.ResourceNotFoundException;
 import com.staxrt.tutorial.model.User;
 import com.staxrt.tutorial.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -92,6 +93,7 @@ public class UserController {
    * @return the map
    * @throws Exception the exception
    */
+  @ResponseStatus(HttpStatus.NO_CONTENT)
   @DeleteMapping("/users/{id}")
   public Map<String, Boolean> deleteUser(@PathVariable(value = "id") Long userId) {
 

@@ -213,7 +213,7 @@ public class ApplicationTests {
 
 		logger.info("Delete User status code returned: " + deleteResponse.getStatusCode());
 
-		Assert.assertEquals(deleteResponse.getStatusCode(), HttpStatus.OK);
+		Assert.assertEquals(deleteResponse.getStatusCode(), HttpStatus.NO_CONTENT);
 
 		try {
 			restTemplate.getForObject(getRootUrl() + "/users/" + postResponse.getBody().getId(), User.class);
