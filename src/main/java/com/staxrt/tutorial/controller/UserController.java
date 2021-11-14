@@ -93,7 +93,7 @@ public class UserController {
    * @return the map
    * @throws Exception the exception
    */
-  @ResponseStatus(HttpStatus.OK)
+  @ResponseStatus(HttpStatus.NO_CONTENT)
   @DeleteMapping("/users/{id}")
   public Map<String, Boolean> deleteUser(@PathVariable(value = "id") Long userId) {
 
