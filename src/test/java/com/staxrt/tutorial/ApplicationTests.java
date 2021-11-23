@@ -123,7 +123,7 @@ public class ApplicationTests {
 
 		Allure.addAttachment("Get user within id not exists", String.valueOf(response.getStatusCode()));
 
-		Assert.assertEquals(response.getStatusCode(), HttpStatus.NOT_FOUND);
+		Assert.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
 	}
 
 	@Test
